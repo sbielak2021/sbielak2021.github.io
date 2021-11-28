@@ -1,5 +1,5 @@
 function send_to_page(id){
-    window.location.href = id ;
+    window.location.href = id;
 }
 
 
