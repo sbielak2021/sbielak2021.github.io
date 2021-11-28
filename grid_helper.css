@@ -56,7 +56,6 @@
 }
 
 .areas{
-   /**border: 5px solid rgb(49, 82, 71);**/
    padding: 5px;
    position: relative;
    overflow: auto;
