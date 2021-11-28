@@ -64,6 +64,9 @@
 .right{
    grid-area: right;
 }
+.info{
+   grid-area: info;
+}
 .header{
    grid-area: header;
 }
