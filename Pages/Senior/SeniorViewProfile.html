@@ -1,0 +1,35 @@
+<html>    <head>
+  <script src = "..\..\js_buttons.js"></script>
+<link rel="stylesheet" type="text/css" href="..\..\grid_helper.css" media="screen"/>
+</head>
+ <body>
+
+  <div class="headerAndText container">
+      <div class = "header areas">
+      <button id = "SeniorHomepage.html"  onClick = "send_to_page(this.id)">Home</button>
+      &emsp; <button id = "SeniorViewProfile.html" onClick = "send_to_page(this.id)">View Profile</button> 
+      &emsp; <button id = "SeniorCalendar.html" onClick = "send_to_page(this.id)">Calendar</button>
+      &emsp; <button id = "..\..\Homepage.html"  onClick = "send_to_page(this.id)">Log-Out</button>
+      
+    </div>
+
+    <div class="left areas leftText">
+      <h3> Personal Information </h3>
+      <p> &emsp; Account type: Senior </p>
+      <p> &emsp; Name: Jeff Senior </p>
+      <p> &emsp; Phone number: 555-555-5555 </p>
+      <p> &emsp; Email: N/A </p>
+      <p> &emsp; Address: </p>
+      <h3> Linked Student Accounts: </h3>
+      <p> &emsp; John Student &emsp;<input type = "button" value = "Add Review" onClick = "show('showMe')"> <input type = "button" id = "SeniorCalendar.html" onClick = "send_to_page(this.id)" value = "Request Appointment"></p>
+      
+      <div class = "hide" id = "showMe">
+      <p> Popup window for Request Appiontment button </p> 
+      <p> Rating:  <input type = "checkbox"> 1 <input type = "checkbox"> 2 <input type = "checkbox"> 3 <input type = "checkbox"> 4 <input type = "checkbox"> 5 </p>
+      <p> Notes: </p>
+      <textarea rows = "5" cols = "50"> </textarea>
+      <p> <input type = "button" onClick = "hide('showMe')" value = "Submit"> </p>
+    </div></div>
+</div>
+ <body>
+<html>

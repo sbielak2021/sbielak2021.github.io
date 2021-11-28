@@ -1,0 +1,22 @@
+
+   .column 
+   {
+    float: left;
+    width: 30%;
+   }
+
+   .row:after 
+   {
+    content: "";
+    /**display: table;**/
+    clear: both;
+   }   
+
+   
+   h2{
+      align-self: center;
+   }
+
+   p{
+      align-self: center;
+   }

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script src = "..\..\js_buttons.js"></script>
+        <link rel="stylesheet" type="text/css" href="..\..\grid_helper.css" media="screen"/>
+    </head>
+    <body>
+        <div class = "container headerAndText">
+            <div class = "header areas">
+                <h2>
+                <button id = "StudentHomepage.html"  onClick = "send_to_page(this.id)">Home</button>
+                &emsp; <button id = "StudentViewProfile.html" onClick = "send_to_page(this.id)">View Profile</button> 
+                &emsp; <button id = "FindSeniors.html" onClick = "send_to_page(this.id)">Find Seniors</button> 
+                &emsp; <button id = "StudentCalendar.html" onClick = "send_to_page(this.id)">Calendar</button>
+                &emsp; <button id = "..\..\Homepage.html"  onClick = "send_to_page(this.id)">Log-Out</button>
+                
+                </h2>
+            </div>
+            <div class = "left areas">
+                <h1> Search for seniors that need help in a certain tech area </h1> <br>
+                <select name="problems" id="problems">
+                    <option value="tv">TV</option>
+                    <option value="internet">Internet</option>
+                    <option value="tvandinternet">TV and Internet</option>
+                    <option value="general">General (TV and Internet)</option>
+                    <option value="general2">General 2 (The computer wasnt on)</option>
+                  </select>
+                  <button id = "submit" onClick = "show('showMe')">Submit</button>
+
+                  <div id = "showMe" class = "hide"> 
+                    <p>Heres the senior you were looking for!</p>
+                    </div>
+            </div>
+
+        </div>
+    <body>
+<html>
+

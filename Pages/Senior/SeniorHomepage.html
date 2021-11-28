@@ -1,13 +1,25 @@
-<html>
-    <head>
-    <script src = "js_buttons.js"></script>
-    <link rel="stylesheet" type="text/css" href="grid_helper.css" media="screen"/>
-  </head>
-  <body>
-    <div class = "homepage container">
+<html>     <head>
+   
+  <script src = "..\..\js_buttons.js"></script>
+  <link rel="stylesheet" type="text/css" href="..\..\grid_helper.css" media="screen"/>
+ </head>
+<head>
+    <link rel="stylesheet" type="text/css" href="senior.css" media="screen"/>
+   </head>
+  <body>  
+    <div class="headerAndText container">
       <div class = "header areas">
-        <h1>Welcome to Student-Senior Tech Connections</h1>
-        <p class = "center"> We the Tech Savvy Teens, or TEST want to help pair today's teens
+        <h2>
+        <button id = "..\..\Homepage.html"  onClick = "send_to_page(this.id)">Home</button>
+        &emsp; <button id = "SeniorViewProfile.html" onClick = "send_to_page(this.id)">View Profile</button> 
+        &emsp; <button id = "SeniorCalendar.html" onClick = "send_to_page(this.id)">Calendar</button>
+        &emsp; <button id = "..\..\Homepage.html"  onClick = "send_to_page(this.id)">Log-Out</button>
+        
+      </div>
+      <hr>  
+      <div class="left areas leftText">
+        <h1 class = "center"> Welcome to Student-Senior Tech Connections </h1> <br>
+        <p> We the Tech Savvy Teens, or TEST want to help pair today's teens
           with senior citizens who are having technological problems, in order to
           better their lives. Many elderly people have trouble with today’s technology
           and it can be frustrating and troublesome. This can affect them in many
@@ -21,18 +33,7 @@
           Our application will work with high schools and senior citizen centers to find
           students who are willing and eager to help senior citizens.</p>
       </div>
-      <div class = "left areas">
-        <h2>Click Here to Sign Up</h2>
-        <h2> <button id = 'pages/student/StudentSignUp.html' onClick = "send_to_page(this.id)">Student Sign Up</button></h2>
-        <h2> <button id = 'pages/senior/SeniorSignUp.html' onClick = "send_to_page(this.id)">Senior Sign Up</button></h2>
-      </div>
-    
-      <div class = "right areas">
-        <h2>Click Here to Login</h2>
-        <h2> <button id = 'pages/student/StudentHomepage.html' onClick = "send_to_page(this.id)">Student Login</button></h2>
-        <h2> <button id = 'pages/senior/SeniorHomepage.html' onClick = "send_to_page(this.id)">Senior Login</button></h2>
-      </div>
     </div>
+  <body>
+<html>
 
-  </body>
-</html>
